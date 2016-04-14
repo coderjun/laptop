@@ -31,8 +31,8 @@ set -e
 
 # Here we go.. ask for the administrator password upfront and run a
 # keep-alive to update existing `sudo` time stamp until script has finished
-# sudo -v
-# while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+sudo -v
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Ensure Apple's command line tools are installed
 if ! command -v cc >/dev/null; then
@@ -62,12 +62,13 @@ if [ -d "./laptop" ]; then
   fancy_echo "Laptop repo dir exists. Removing ..."
   rm -rf ./laptop/
 fi
-fancy_echo "Cloning laptop repo ..."
-git clone https://github.com/siyelo/laptop.git 
+#fancy_echo "Cloning laptop repo ..."
+#git clone https://github.com/siyelo/laptop.git 
 
 fancy_echo "Changing to laptop repo dir ..."
-cd laptop
+#cd laptop
 
 # Run this from the same directory as this README file. 
 fancy_echo "Running ansible playbook ..."
-ansible-playbook playbook.yml -i hosts --ask-sudo-pass -vvvv 
+#ansible-playbook playbook.yml -i hosts --ask-sudo-pass -vvvv 
+ansible-playbook playbook.yml -i hosts --ask-sudo-pass

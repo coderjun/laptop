@@ -6,77 +6,80 @@
     applications:
       - 1password
       #- adium 
-      - alfred # | http://www.alfredapp.com 
+      #- alfred # | http://www.alfredapp.com 
       #- anvil # run sites locally 
-      - apptrap # remove associated prefs when uninstalling
-      - appzapper # uninstaller
+      - appcleaner # utility to remove apps
+      #- apptrap # remove associated prefs when uninstalling
+      #- appzapper # uninstaller
       #- atom # sublime without annoying popup | https://atom.io/download/mac 
-      - bettertouchtool # window snapping. (maybe Moom is more lightweight?)
+      #- bettertouchtool # window snapping. (maybe Moom is more lightweight?)
       #- betterzipql # quick look for zips 
       #- bodega # a less-shit mac store 
       #- caffeine # prevent mac from sleeping 
       #- calibre # berks
-      - carbon-copy-cloner # backups | https://bombich.com/download
-      - cheatsheet # know your shortcuts
-      #- cord # RDP remote control 
+      #- carbon-copy-cloner # backups | https://bombich.com/download
+      #- cheatsheet # know your shortcuts
+      - cord # RDP remote control 
       - cyberduck # ftp, s3, openstack
-      - dash # totally sick API browser
+      #- dash # totally sick API browser
       #- deeper # (w/ onyx) turn on hidden functions 
-      - diffmerge # free visual diq
+      #- diffmerge # free visual diq
       - disk-inventory-x # reclaim space on your expensive-ass Apple SSD | http://www.derlien.com/
       - dropbox # a worse Mega Sync
-      - eve # learn your shortcuts
+      #- eve # learn your shortcuts
       #- evernote 
       #- fing # network diagnostics
-      - firefox 
-      - flux # get more sleep
+      #- firefox 
+      #- flux # get more sleep
       - google-chrome
       #- google-drive 
       #- handbrake # vid compression 
-      - imageoptim # optimize images
-      - istumbler # network discovery GUI
+      #- imageoptim # optimize images
+      #- istumbler # network discovery GUI
       #- iterm2 
-      - jumpcut # awesome clipboard
-      - karabiner # Keyboard customization
+      #- jumpcut # awesome clipboard
+      #- karabiner # Keyboard customization
       #- keka # file archiving 
-      - licecap # GIFs !
-      - little-snitch # awesome outbound firewall
+      #- licecap # GIFs !
+      #- little-snitch # awesome outbound firewall
       #- mactracker # benchmarking 
       #- macvim # a shittier vim 
-      - megasync # a better Dropbox  
-      - monolingual # remove unneeded osx lang files
+      #- megasync # a better Dropbox  
+      #- monolingual # remove unneeded osx lang files
       #- namechanger # rename files in bulk 
       #- nosleep # prevent mac from sleeping when closing lid 
-      - nvalt # fast note taking
+      #- nvalt # fast note taking
       #- onyx # system maintenance 
       #- packer # machine images 
-      - qlcolorcode # quick look syntax highlighting
-      - qlimagesize # quick look image dimensions
-      - qlmarkdown # quick look .md files
-      - qlstephen # quick look extension-less text files
+      #- qlcolorcode # quick look syntax highlighting
+      #- qlimagesize # quick look image dimensions
+      #- qlmarkdown # quick look .md files
+      #- qlstephen # quick look extension-less text files
       #- rcdefaultapp # set default app for different URLs 
-      - rowanj-gitx # Awesome gitx fork.
+      #- rowanj-gitx # Awesome gitx fork.
       #- seil # Keyboard customization 
-      - sequel-pro # FREE SQL GUI!
-      - shortcat # kill your mouse
-      - shuttle # ssh management
+      #- sequel-pro # FREE SQL GUI!
+      #- shortcat # kill your mouse
+      #- shuttle # ssh management
       #- skitch 
       - skype # 
-      - sublime-text3 # (experimental cask) | http://www.sublimetext.com/
+      #- sublime-text3 # (experimental cask) | http://www.sublimetext.com/
       #- subtitles # auto download subtitles 
-      - thunderbird # email
-      - tomighty # pomodoro
-      - torbrowser # be the noise
+      #- thunderbird # email
+      #- tomighty # pomodoro
+      #- torbrowser # be the noise
       #- tower # another git client
-      - transmission # torrents
+      #- transmission # torrents
       #- transmit # ftp 
-      - tunnelblick # VPN
-      - vagrant # | https://www.vagrantup.com/downloads.html
-      - vagrant-manager # 
-      - virtualbox # | https://www.virtualbox.org/
-      - vlc 
+      #- tunnelblick # VPN
+      #- vagrant # | https://www.vagrantup.com/downloads.html
+      #- vagrant-manager # 
+      #- virtualbox # | https://www.virtualbox.org/
+      #- vlc 
       #- xtrafinder # moar Finder! 
       #- zoomus # better videoconferences
+      - visual-studio-code #https://github.com/caskroom/homebrew-cask/blob/master/Casks/visual-studio-code.rb
+      - chefdk #https://github.com/chef/chef-dk
 
     install_oh_my_zsh:  true
 
@@ -91,47 +94,47 @@
 
     brew_utils:
       # - ansible #already installed by ./mac bootstrap script
-      - autoconf
-      - autojump # quickly navigate from cmd line
-      - bash # Bash 4
-      - boot2docker # for running docker on osx
+      #- autoconf
+      #- autojump # quickly navigate from cmd line
+      #- bash # Bash 4
+      #- boot2docker # for running docker on osx
       - brew-cask
-      - cowsay # amazing
+      #- cowsay # amazing
       - coreutils # Install GNU core utilities (those that come with OS X are outdated)
       #- ctags
-      - docker # | https://docs.docker.com/installation/mac/
+      #- docker # | https://docs.docker.com/installation/mac/
       #- ffmpeg
-      - findutils  # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-      - git
-      - go
-      - gpg
+      #- findutils  # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
+      #- git
+      #- go
+      #- gpg
       #- homebrew/dupes/grep # more recent version of OS X grep # ansible bug: https://github.com/ansible/ansible-modules-extras/issues/252
-      - hub # github
+      #- hub # github
       #- imagemagick # IDK why, but I always end up needing this beast
-      - keybase # in alpha at time of writing.
+      #- keybase # in alpha at time of writing.
       #- mercurial # Used to need it for golang src builds. Who knows, might come in handy again.
       #- mongodb # a shittier PG 
-      - mtr # better traceroute
+      #- mtr # better traceroute
       #- mysql # required PHP library 
-      - node
-      - npm
-      - openssl
-      - packer
+      #- node
+      #- npm
+      #- openssl
+      #- packer
       # - phantomjs 
-      - postgresql # yes and nosql
-      - python
-      - rbenv # ruby. Just installs binaries - assumes you bring in the dotfiles.
-      - readline
-      - redis
-      - rename # rename multiple files
-      - rsync
-      - ruby-build
-      - sqlite # production rails DB
-      - the_silver_searcher # fast ack-grep
-      - tmux
-      - vim
+      #- postgresql # yes and nosql
+      #- python
+      #- rbenv # ruby. Just installs binaries - assumes you bring in the dotfiles.
+      #- readline
+      #- redis
+      #- rename # rename multiple files
+      #- rsync
+      #- ruby-build
+      #- sqlite # production rails DB
+      #- the_silver_searcher # fast ack-grep
+      #- tmux
+      #- vim
       - wget
-      - zsh
+      #- zsh
 
     zsh_path: /usr/local/bin/zsh
 
@@ -274,9 +277,9 @@
     # require manual intervention!
     #
     
-    - name: Run Little Snitch Installer
-      shell: open /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app
-      when: "'little-snitch' in applications"
+    #- name: Run Little Snitch Installer
+    #  shell: open /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app
+    #  when: "'little-snitch' in applications"
 
     - name: Run Monolingual
       shell: open ~/Applications/Monolingual.app
