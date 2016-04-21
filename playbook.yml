@@ -34,6 +34,7 @@
       #- flux # get more sleep
       - google-chrome
       #- google-drive 
+      - google-earth
       #- handbrake # vid compression 
       #- imageoptim # optimize images
       #- istumbler # network discovery GUI
@@ -52,6 +53,7 @@
       #- nvalt # fast note taking
       #- onyx # system maintenance 
       #- packer # machine images 
+      - python3
       #- qlcolorcode # quick look syntax highlighting
       #- qlimagesize # quick look image dimensions
       #- qlmarkdown # quick look .md files
@@ -65,6 +67,8 @@
       #- skitch 
       - skype # 
       - slack
+      - sonos
+      - spotify
       #- sublime-text3 # (experimental cask) | http://www.sublimetext.com/
       #- subtitles # auto download subtitles 
       #- thunderbird # email
