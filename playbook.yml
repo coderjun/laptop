@@ -78,11 +78,14 @@
       #- transmission # torrents
       #- transmit # ftp 
       #- tunnelblick # VPN
+      - tunnelbear
       #- vagrant # | https://www.vagrantup.com/downloads.html
       #- vagrant-manager # 
       #- virtualbox # | https://www.virtualbox.org/
-      #- vlc 
+      - vlc 
+      - vmware-fusion
       #- xtrafinder # moar Finder! 
+      - yemuzip
       #- zoomus # better videoconferences
       - visual-studio-code #https://github.com/caskroom/homebrew-cask/blob/master/Casks/visual-studio-code.rb
       - chefdk #https://github.com/chef/chef-dk
@@ -122,6 +125,7 @@
       #- mongodb # a shittier PG 
       #- mtr # better traceroute
       #- mysql # required PHP library 
+      - netcat
       #- node
       #- npm
       #- openssl
