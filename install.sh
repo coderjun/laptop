@@ -57,18 +57,30 @@ else
   fancy_echo "Ansible already installed. Skipping."
 fi
 
-# Clone the repository to your local drive.
-if [ -d "./laptop" ]; then
-  fancy_echo "Laptop repo dir exists. Removing ..."
-  rm -rf ./laptop/
+# Install NVM (https://github.com/creationix/nvm)
+if [ ! -d ~/.nvm ]; then
+  fancy_echo "Installing NVM ..."
+  touch ~/.bash_profile
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+else
+  fancy_echo "NVM already installed. Skipping."
 fi
+
+#### Running all this local. Don't need to clone my repo into itself
+# Clone the repository to your local drive.
+#if [ -d "./laptop" ]; then
+#  fancy_echo "Laptop repo dir exists. Removing ..."
+#  rm -rf ./laptop/
+#fi
 #fancy_echo "Cloning laptop repo ..."
 #git clone https://github.com/siyelo/laptop.git 
 
-fancy_echo "Changing to laptop repo dir ..."
+#fancy_echo "Changing to laptop repo dir ..."
 #cd laptop
 
+
+
 # Run this from the same directory as this README file. 
-fancy_echo "Running ansible playbook ..."
+###fancy_echo "Running ansible playbook ..."
 #ansible-playbook playbook.yml -i hosts --ask-sudo-pass -vvvv 
 ansible-playbook playbook.yml -i hosts --ask-sudo-pass
