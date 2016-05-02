@@ -79,7 +79,7 @@
       #- transmit # ftp 
       #- tunnelblick # VPN
       - tunnelbear
-      #- vagrant # | https://www.vagrantup.com/downloads.html
+      - vagrant # | https://www.vagrantup.com/downloads.html
       #- vagrant-manager # 
       #- virtualbox # | https://www.virtualbox.org/
       - vlc 
