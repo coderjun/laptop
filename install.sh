@@ -42,6 +42,9 @@ else
   fancy_echo "Xcode already installed. Skipping."
 fi
 
+# Install Cocoa Pods for Xcode
+sudo gem install cocoapods
+
 if ! command -v brew >/dev/null; then
   fancy_echo "Installing Homebrew..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null

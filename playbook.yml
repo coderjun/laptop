@@ -6,6 +6,7 @@
     applications:
       - 1password
       #- adium 
+      - adobe-air
       #- alfred # | http://www.alfredapp.com 
       #- anvil # run sites locally 
       - appcleaner # utility to remove apps
